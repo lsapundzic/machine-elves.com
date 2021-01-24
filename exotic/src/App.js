@@ -1,9 +1,14 @@
 import "./App.css";
+import "./components/navbar.js";
+import "./components/main.js";
+import "./components/footer.js";
 
 function App() {
   return (
     <div>
-      <h1>Hello There, World!</h1>
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
   );
 }
