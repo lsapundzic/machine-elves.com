@@ -1,10 +1,17 @@
 import React from "react";
-import ContactCard from "./ContactCard";
+import Joke from "./Joke";
 
 function Main() {
   return (
     <main>
-      <ContactCard />
+      <Joke
+        funny={{
+          question: "Knock knock",
+          answer: "Who's there?",
+        }}
+      />
+      <Joke />
+      <Joke />
     </main>
   );
 }

@@ -12,7 +12,6 @@ import Footer from "./components/footer.js";
 function App() {
   return (
     <div>
-      <h1>Welcome to The Aberdeen Proving Ground</h1>
       <Navbar />
       <Main />
       <Footer />
