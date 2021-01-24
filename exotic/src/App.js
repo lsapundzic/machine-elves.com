@@ -1,11 +1,18 @@
+// React import
+import React from "react";
+
+// CSS import
 import "./App.css";
-import "./components/navbar.js";
-import "./components/main.js";
-import "./components/footer.js";
+
+// Components import
+import Navbar from "./components/navbar.js";
+import Main from "./components/main.js";
+import Footer from "./components/footer.js";
 
 function App() {
   return (
     <div>
+      <h1>Welcome to The Aberdeen Proving Ground</h1>
       <Navbar />
       <Main />
       <Footer />
