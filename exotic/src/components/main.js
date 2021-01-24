@@ -1,19 +1,12 @@
 import React from "react";
 import Joke from "./Joke";
+import jokesData from "../data/jokesData.js";
 
 function Main() {
-  return (
-    <main>
-      <Joke
-        funny={{
-          question: "Knock knock",
-          answer: "Who's there?",
-        }}
-      />
-      <Joke />
-      <Joke />
-    </main>
-  );
+  const jokes = jokesData.map((joke) => (
+    <Joke key={joke.id} question={joke.question} answer={joke.answer} />
+  ));
+  return <main>{jokes}</main>;
 }
 
 export default Main;
