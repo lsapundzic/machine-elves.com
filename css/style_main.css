@@ -1,0 +1,8 @@
+/* TODO: Find more comprehensive remove-formatting */
+
+/* Basic remove formatting */
+
+* {
+  margin: 0;
+  padding: 0;
+}
