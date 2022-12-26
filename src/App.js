@@ -1,10 +1,16 @@
 import "./styles/App.css";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <h1>Mechanical Elves</h1>
-      <h2>Psychedelic Art Gallery</h2>
+      <Header />
+      <Navbar />
+      <Body />
+      <Footer />
     </div>
   );
 }
