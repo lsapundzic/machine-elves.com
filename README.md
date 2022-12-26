@@ -2,7 +2,7 @@
 
 ## Project idea
 
-This is an art gallery project made in React. 
+This is an art gallery project made in React.
 
 ## Libraries
 
