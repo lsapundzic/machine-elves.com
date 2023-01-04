@@ -1,4 +1,4 @@
-# Mechanical Elves Art Gallery
+# Machine Elves Art Gallery
 
 ## Project idea
 
