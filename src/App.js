@@ -1,14 +1,9 @@
 import "./styles/App.css";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Navbar />
-      <Footer />
+      <h1>Nothing here</h1>
     </div>
   );
 }
