@@ -1,1 +1,1 @@
-# Machine Elves Blog & Art Store
+# Machine Elves Psychedelic Artwork & Blog
