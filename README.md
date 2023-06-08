@@ -1,1 +1,1 @@
-# Machine Elves Art Blog & Store
+# Machine Elves Blog & Art Store
