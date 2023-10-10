@@ -1,12 +1,14 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
-    return (
-        <>
-            <h1>Machine Elves</h1>
-            <h2>Curated Psychedelic Art Gallery</h2>
-            <p>This site is currently in development. Please come back later. Thanks :)</p>
-        </>
-
-    )
+  return (
+    <div className="align-middle text-center">
+      <h1 className="text-6xl">Machine Elves Art Gallery</h1>
+      <h2 className="text-2xl">Curated Psychedelic Art & Thought</h2>
+      <p>
+        This page is currently under construction. Please come back later.
+        Thanks!
+      </p>
+    </div>
+  );
 }
