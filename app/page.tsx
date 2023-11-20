@@ -35,10 +35,6 @@ export default function Home() {
           alt="An art deco style head statue"
         />
         <p className="text-5xl">Machine Elves</p>
-        <p>
-          Number:
-          {path}
-        </p>
       </div>
     </div>
   );
