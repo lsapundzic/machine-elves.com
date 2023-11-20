@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { log } from "util";
 
 export default function Home() {
   const [path, setPath] = useState(0);
@@ -34,6 +35,10 @@ export default function Home() {
           alt="An art deco style head statue"
         />
         <p className="text-5xl">Machine Elves</p>
+        <p>
+          Number:
+          {path}
+        </p>
       </div>
     </div>
   );
