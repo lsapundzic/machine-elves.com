@@ -5,7 +5,9 @@ const Test = () => {
         <div>
             <h1>You have reached the page for project testing</h1>
             <h2>Please return home immediately</h2>
-            <Link href="./"></Link>
+            <Link href="./">Take me home</Link>
         </div>
     )
 }
+
+export default Test; 
