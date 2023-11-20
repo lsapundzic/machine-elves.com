@@ -1,26 +1,36 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
-  const path = "/images/";
-  let images = [`${path}judge.jpg`, `${path}god.jpg`, `${path}witness.jpg`];
+  const [path, setPath] = useState(0);
 
-  const catchClick = () => {
-    alert("You clicked me");
+  const imagePath = "/images/";
+
+  let images = [
+    `${imagePath}judge.jpg`,
+    `${imagePath}god.jpg`,
+    `${imagePath}witness.jpg`,
+  ];
+
+  const changeImage = () => {
+    let randomNumber = Math.floor(Math.random() * images.length);
+
+    setPath(randomNumber);
   };
 
   return (
     <div>
       <div
         className="flex flex-col items-center justify-center min-h-screen"
-        onClick={catchClick}
+        onClick={changeImage}
       >
         <Image
           width={460}
           height={460}
           className="mb-4"
-          src={images[2]}
+          src={`${images[path]}`}
           alt="An art deco style head statue"
         />
         <p className="text-5xl">Machine Elves</p>
